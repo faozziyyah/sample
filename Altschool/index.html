@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="main.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'"/>
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>
+    </noscript>
+
+    <title>About Me</title>
+</head>
+
+<style>
+    header{
+    background-image: linear-gradient(to right bottom, #070640, rgba(79, 97, 42, 0.5)), url(banner.jpg);
+}
+
+.header-contents{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.header-contents > img{
+    border-radius: 50%;
+    width: 20%;
+    height: 120px;
+    -webkit-animation: animate 1s linear infinite;
+    animation: animate 1s linear infinite;
+}
+
+</style>
+
+<body>
+    
+    <header>
+        <!-- background image -->
+        <div class="banner">
+            <div class="banner-content">
+                <nav>
+                    <img src="logo.png" alt="logo" href="#" id="logo">
+                    <!-- desktop nav -->
+                    <div class="navbar-desktop hideOnMobile">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="register.html">Register</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="calc.html">Calculator</a></li>
+                    </div>
+    
+                    <!-- mobile nav -->
+                    <div class="navbar-mobile hideOnDesktop">
+                        <ion-icon name="menu-outline" id="menu" size="large"></ion-icon>
+                        <img src="close.svg" id="close">
+                        <div class="nav-contents" id="contents" data-aos="flip-right" data-aos-duration="3000">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="register.html">Register</a></li>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="calc.html">Calculator</a></li>
+                        </div>
+                    </div>
+
+                </nav>
+
+                
+                <div class="header-contents">
+                    <img src="myself.jpg" alt="myself" data-aos="zoom-in-down" data-aos-duration="3000">
+                    <h1>Daud Faozziyyah</h1>
+                    <p>Front-end developer and UI/UX designer</p>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="first" data-aos="zoom-in-down" data-aos-duration="3000">
+            <div id="about">
+                <h1>About Me</h1>
+                <h3>Hello! I'm Daud Faozziyyah.</h3>
+                <p> I am passionate about design and Technology. <br>
+                     I am a quick learner and a team worker that gets the job done.<br>
+                     I'm extremely motivated to constantly develop my skills and grow professionally.<br>
+                    I am confident in my ability to come up with interesting ideas for responsive and beautiful websites.
+                </p>
+            </div>
+            
+            <div id="goals">
+                <h1>My Goals</h1>
+                        <li>To learn and understand the language of frontend website development.</li>
+                        <li>To establish a network of developers.</li>
+                        <li>To use this opportunity as a stepping stone to become a fullstack developer.</li>
+                        <li>To be able to give back to the tech community.</li>
+                </div>
+        </section>
+
+        <section class="second">
+            <div class="education" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="3000">
+                <h1>Education</h1>
+                <div class="edu-box">
+                    <div class="date">
+                        <p>2019 - Date</p>
+                        <h2>Bachelor<br> Degree</h2>
+                    </div>
+                    <div class="edu-name">
+                        <h3>Bachelor of Nursing Science</h3>
+                        <p class="p1">Olabisi Onabanjo University</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio sunt quia, quidem eum nemo consequuntur dolor.</p> 
+                    </div>
+                </div>
+
+                <div class="edu-box">
+                    <div class="date">
+                        <p>2019 - 2020</p>
+                        <h2>Web Development</h2>
+                    </div>
+                    <div class="edu-name">
+                        <h3>Frontend website development</h3>
+                        <p class="p1">Hack Your Future</p>
+                        <p>A 28-week course designed to cover all aspects of full-stack development including HTML, CSS, JavaScript, NodeJS, ExpressJS, MySQL and ReactJS</p> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="3000">
+                <h1>Work Experience</h1>
+                <div class="edu-box">
+                    <div class="date">
+                        <p>April 2022 - May 2022</p>
+                        <h2>Side Hustle</h2>
+                    </div>
+                    <div class="edu-name">
+                        <h3>Frontend development Mentor</h3>
+                        <p>Taught interns the languages of frontend development.</p>
+                        <p class="p2">Ability to meet up with deadlines for given tasks.</p> 
+                    </div>
+                </div>
+
+                <div class="edu-box">
+                    <div class="date">
+                        <p>June 2021 - Aug 2021</p>
+                        <h2>Zuri</h2>
+                    </div>
+                    <div class="edu-name">
+                        <h3>Frontend development intern</h3>
+                        <p>Worked in a team to build a learning management system.</p>
+                        <p class="p2">Ability to meet up with deadlines for given tasks.</p> 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="third" id="project">
+            <div class="skills">
+                <h1>Skills</h1>
+                <div class="skill">
+                    <ion-icon name="logo-html5" size="large" id="one"></ion-icon>
+                    <ion-icon name="logo-css3" size="large" id="two"></ion-icon>
+                </div>
+                <div class="skill">
+                    <ion-icon name="logo-javascript" size="large" id="three"></ion-icon>
+                    <ion-icon name="logo-figma" size="large" id="five"></ion-icon>
+                </div>
+                <div class="skill">
+                    <ion-icon name="logo-github" size="large" id="six"></ion-icon>
+                    <ion-icon name="logo-vercel" size="large" id="seven"></ion-icon>
+                </div>
+            </div>
+
+            <div class="hobbies">
+                <h1>Hobbies</h1>
+                    <li>coding</li>
+                    <li>Designing</li>
+                    <li>Travelling</li>
+                    <li>sleeping</li>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <h1>Contact Me</h1>
+        <section class="foot">
+            <form>
+                <input type="text" placeholder="Name" required > <br><br>
+                <input type="email" placeholder="Email Address" required > <br> <br>
+                <textarea rows="4" placeholder="message" required ></textarea> <br><br>
+                <select>
+                    <option value="Priority">Priority</option>
+                    <option value="urgent">urgent</option>
+                    <option value="important">important</option>
+                </select>
+                <button type="submit" class="btn1">Contact Me</button>
+            </form>
+
+            <div class="contact">
+                <p>Email: omowunmidaud1@gmail.com</p>
+                <p>Phone: +234 8156 1281 68</p>
+                <p>Address: Sagamu, Ogun state, Nigeria</p>
+                <p>&copy; Daud Faozziyyah. All rights reserved</p>
+            </div>
+        </section>
+    </footer>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        const menu = document.getElementById('menu');
+const nav = document.getElementById('contents');
+const closeBtn = document.getElementById('close');
+
+nav.style.display = 'none';
+closeBtn.style.display = 'none';
+
+// Activate navigation
+menu.addEventListener('click', openNav);
+
+function openNav() {
+    nav.style.display = 'block';
+    closeBtn.style.display = 'block';
+    menu.style.display = 'none';
+}
+
+// close navigation
+closeBtn.addEventListener('click', closeNav);
+
+function closeNav() {
+    nav.style.display = 'none';
+    closeBtn.style.display = 'none';
+    menu.style.display = 'block';
+}
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+</html>
